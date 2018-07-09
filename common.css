@@ -1,0 +1,46 @@
+/*reset*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #f5f5f5;
+	color: #666;
+	font: 12px/1.5 Tahoma,Arial,"微软雅黑",sans-serif;
+	/*font: 12px/1.5 tahoma,arial,"\5b8b\4f53";*/
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;  /*去除下划线*/
+}
+ul,li{
+	list-style: none;   /*去除小黑圆点*/
+}
+em,i {
+    font-style: normal;   /**/
+}
+/*img{ 
+    vertical-align:middle;
+    border:0;
+}*/
+
+
+/*common css*/
+/* 全浏览器通用的clearfix方案【推荐】
+引入了zoom以支持IE6/7*/
+
+.clearfix::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.clearfix{
+    *zoom: 1;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
