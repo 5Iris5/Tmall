@@ -1,2 +1,2 @@
 # Tmall
-仿天猫商城首页
+[效果预览](https://5iris5.github.io/Tmall/)
