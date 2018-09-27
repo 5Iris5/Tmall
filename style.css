@@ -221,7 +221,7 @@
 .down-list-menu .down-menu-content .small-icon{
 	position: absolute; /*具有相对特效的无依赖absolute绝对定位*/
 /* 	top: -10px; */
-	margin-top: -10px;
+	margin-top: -10px; /*利用外边距进行偏移*/
 }
 /*行业市场*/
 .down-list-menu .down-menu-content .menu-market{
