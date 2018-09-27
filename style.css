@@ -215,12 +215,13 @@
 	width: 85px;
 }
 .down-list-menu .down-menu-content a{   /*一定要记得相对定位，作用于小图标处*/
-	position: relative;
+/* 	position: relative; */
 	color: #666;   
 }
 .down-list-menu .down-menu-content .small-icon{
-	position: absolute;
-	top: -10px;
+	position: absolute; /*具有相对特效的无依赖absolute绝对定位*/
+/* 	top: -10px; */
+	margin-top: -10px;
 }
 /*行业市场*/
 .down-list-menu .down-menu-content .menu-market{
